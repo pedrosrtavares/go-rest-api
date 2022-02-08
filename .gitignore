@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# Except
+
+!/.gitignore
+
+!*.go
+!go.sum
+!go.mod
+
+!README.md
+!LICENSE
+
+!Makefile
+
+!Dockerfile
+!.dockerignore
+
+!docker-compose-example.yml
+
+!*.sql
+# ...even if they are in subdirectories
+!*/
